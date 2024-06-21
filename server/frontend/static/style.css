@@ -124,3 +124,27 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.centered-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.text-center-vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.role_label {
+  color: darkturquoise;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.half-size {
+
+}

@@ -1,0 +1,8 @@
+
+1.
+ファイル エディターで、 を開き、とserver/djangoproj/settings.pyを設定してDjango アプリのルート URL を反映させます。ALLOWED_HOSTSCSRF_TRUSTED_ORIGINS
+ALLOWED_HOSTS=['localhost','<your application URL here>']
+CSRF_TRUSTED_ORIGINS=['<your application URL here>']
+
+
+
