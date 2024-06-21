@@ -5,4 +5,6 @@ ALLOWED_HOSTS=['localhost','<your application URL here>']
 CSRF_TRUSTED_ORIGINS=['<your application URL here>']
 
 
+admin/ adminpass
+user/ test@test
 
