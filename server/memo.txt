@@ -8,3 +8,6 @@ CSRF_TRUSTED_ORIGINS=['<your application URL here>']
 admin/ adminpass
 user/ test@test
 
+docker build . -t nodeapp
+docker-compose up
+
