@@ -11,3 +11,19 @@ user/ test@test
 docker build . -t nodeapp
 docker-compose up
 
+linting
+(python)flake8
+
+black formatter
+(setting.json)
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    "editor.formatOnSave": true,
+    "black-formatter.args": [
+        "--line-length",
+        "80"
+    ]
+
+
