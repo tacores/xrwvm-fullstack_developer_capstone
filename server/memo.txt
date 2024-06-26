@@ -12,7 +12,8 @@ docker build . -t nodeapp
 docker-compose up
 
 linting
-(python)flake8
+(python)pipenv install flake8
+(javascript)npm install jshint --global
 
 black formatter
 (setting.json)
@@ -27,3 +28,21 @@ black formatter
     ]
 
 
+Prettier formatter
+(.jshintrc)
+{
+    "esversion": 8
+}
+(setting.json)
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
